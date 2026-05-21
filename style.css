@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+.hero {
+    background: linear-gradient(135deg, #102838, #3d6a8c);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.subtitle {
+    font-size: 22px;
+    max-width: 700px;
+    margin: auto;
+}
+
+section {
+    padding: 60px 10%;
+    background: white;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    color: #204f6f;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #e8eef3;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    background: #204f6f;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    text-align: center;
+}
+
+input, textarea {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+}
+
+button {
+    background: #204f6f;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+footer {
+    background: #102838;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
